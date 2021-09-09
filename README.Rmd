@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of advanceLab3g25.R is to ...
+The goal of advanceLab3g25.R is understand and learn how to create a package and publish on cran 
 
 ## Installation
 
