@@ -1,18 +1,23 @@
-# Hello, world!
-#
-# This is an example function named 'hello' 
-# which prints 'Hello, world!'.
-#
-# You can learn more about package authoring with RStudio at:
-#
-#   http://r-pkgs.had.co.nz/
-#
-# Some useful keyboard shortcuts for package authoring:
-#
-#   Install Package:           'Ctrl + Shift + B'
-#   Check Package:             'Ctrl + Shift + E'
-#   Test Package:              'Ctrl + Shift + T'
-
-hello <- function(x) {
-  print(paste0("Hello,",x," world!"))
+#' This function is ued to find the greatest common devisier
+#'
+#' @param x first value
+#' @param y second value
+#'
+#' @return it return the greate common devisier
+#' @export
+#'
+#' @examples
+#' euclidean(123612,13892347912)
+#' euclidean(100,1000)
+euclidean = function(x, y){
+  if(y == 0){
+    stop("can not divide by zero")
+  }
+  while(y != 0){
+    temp = y
+    y = x %% y
+    x = temp
+  }
+  return(x)
+  
 }
