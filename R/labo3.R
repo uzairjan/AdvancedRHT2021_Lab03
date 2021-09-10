@@ -10,7 +10,7 @@
 #' euclidean(123612,13892347912)
 #' euclidean(100,1000)
 euclidean = function(x, y){
-  if(y == 0){
+  if(y == 0 ){
     stop("can not divide by zero")
   }
   while(y != 0){
@@ -19,5 +19,5 @@ euclidean = function(x, y){
     x = temp
   }
   return(x)
-  
+
 }
