@@ -6,7 +6,7 @@
 <!-- badges: start -->
 
 [![Travis build
-status](https://travis-ci.com/uzairjan/AdvancedRHT2021_Lab03.svg?branch=main)](https://travis-ci.com/uzairjan/AdvancedRHT2021_Lab03)
+status](https://app.travis-ci.com/uzairjan/AdvancedRHT2021_Lab03.svg?token=YfBkxpsFM24tj2sZYTgX&branch=main)](https://travis-ci.com/uzairjan/AdvancedRHT2021_Lab03)
 <!-- badges: end -->
 
 The goal of advanceLab3g25.R is understand and learn how to create a
