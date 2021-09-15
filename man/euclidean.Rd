@@ -12,7 +12,7 @@ euclidean(x, y)
 \item{y}{second value}
 }
 \value{
-it return the greate common devisier
+it return the greatest common devisier
 }
 \description{
 This function is ued to find the greatest common devisier
