@@ -11,15 +11,17 @@ An object of class \code{data.frame} with 18 rows and 3 columns.
 wiki_graph
 }
 \description{
-wiki_graph data is for testing dijstra method.
+wiki_graph data is for testing dijkstra method.
 }
 \examples{
 data(wiki_graph)
 v1 <- wiki_graph$v1
 v2 <- wiki_graph$v2
 w <- wiki_graph$w
+
 }
 \references{
 \href{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}{wikipedia page}
 }
-\keyword{datasets}
+\keyword{data}
+\keyword{sets}
